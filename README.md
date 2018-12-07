@@ -6,6 +6,7 @@ The first one takes last element as pivot(which is an element that divides the l
 the other one divides input array(a list of numbers) in two halves, and since it's recursive calls itself for the two halves and then merges the two sorted halves, and the key process is the merge(arr), that assumes that the arrays are sorted and allows the merging of the two sorted sub-arrays into one (our final list).
 
 - THE CODE -
+
 The first step is to create a random list, importing 'random' composed by n elements (form 0 to n) with n=1000; 
 after that we can apply our two algorithms to the random list.
 Then, we must import 'Timeit' to measure the execution speed of both algorithms, and to import it, we must use the 'setup function' to make sure to run the algorithms in the correct way.
