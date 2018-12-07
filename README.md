@@ -1,7 +1,7 @@
 # PCS2-Homework
 Student Project for my Principle of Computer Science II. 
 
-QuickSort and MergeSort are two algorithms. 
+QuickSort and MergeSort are two algorithms.<br> 
 The first one takes last element as pivot(which is an element that divides the list of numbers in two smaller list), places the pivot element at its correct position in sorted array, and places all smaller (than the pivot) to its left and all greater elements to its right, through the partition() process;
 the other one divides input array(a list of numbers) in two halves, and since it's recursive calls itself for the two halves and then merges the two sorted halves, and the key process is the merge(arr), that assumes that the arrays are sorted and allows the merging of the two sorted sub-arrays into one (our final list).
 
