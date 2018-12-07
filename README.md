@@ -8,7 +8,7 @@ the other one divides input array(a list of numbers) in two halves, and since it
                                                         - THE CODE -
 
 The first step is to create a random list, (importing 'random') composed by n elements (form 0 to n) with n=1000; 
-after that we can apply our two algorithms to the random list.
-Then, we must import 'Timeit' to measure the execution speed of both algorithms, and to import it, we must use the 'setup function' to make sure to run the algorithms in the correct way.
+after that we can apply our two algorithms to the random list.<br>
+Then, we must import 'Timeit' to measure the execution speed of both algorithms, and to import it, we must use the 'setup function' to make sure to run the algorithms in the correct way.<br>
 Thanks to a plot, it's easier to compare the two speeds obtained, so we can assume that the QuickSort algorithm is faster than the MergeSort one, because MergeSort uses extra space in the memory, but still it's a better algorithm if we are using large data structures.
 
